@@ -12,10 +12,17 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var vc: ViewController!
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.vc = ViewController()
+        let nav = UINavigationController(rootViewController: self.vc)
+        self.window?.rootViewController = nav
+        self.window?.makeKeyAndVisible()
+        //注册Facepp
+        FaceppAPI.initWithApiKey("c2ac7bf45a332900e09623f92bbf0a77", andApiSecret: "7jEs5wNU-lDLn7CAhSszRmztJgBMVfl0", andRegion: APIServerRegionCN)
+        FaceppAPI.setDebugMode(true)
         return true
     }
 

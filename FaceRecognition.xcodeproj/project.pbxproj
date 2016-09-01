@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5297434C1D032251001A43F8 /* FRPersonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297434B1D032251001A43F8 /* FRPersonList.swift */; };
 		529790C01D02885A002ADBD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529790BF1D02885A002ADBD9 /* AppDelegate.swift */; };
 		529790C21D02885A002ADBD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529790C11D02885A002ADBD9 /* ViewController.swift */; };
 		529790C51D02885A002ADBD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529790C31D02885A002ADBD9 /* Main.storyboard */; };
@@ -14,6 +15,19 @@
 		529790CA1D02885B002ADBD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529790C81D02885B002ADBD9 /* LaunchScreen.storyboard */; };
 		529790D51D02885B002ADBD9 /* FaceRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529790D41D02885B002ADBD9 /* FaceRecognitionTests.swift */; };
 		529790E01D02885B002ADBD9 /* FaceRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529790DF1D02885B002ADBD9 /* FaceRecognitionUITests.swift */; };
+		529790EE1D028866002ADBD9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 529790ED1D028866002ADBD9 /* Podfile */; };
+		529790F41D028ED2002ADBD9 /* QYPhotos.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 529790F11D028ED2002ADBD9 /* QYPhotos.bundle */; };
+		529790F51D028ED2002ADBD9 /* QYPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529790F21D028ED2002ADBD9 /* QYPhotos.swift */; };
+		529790F61D028ED2002ADBD9 /* QYPhotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529790F31D028ED2002ADBD9 /* QYPhotosCell.swift */; };
+		529791021D028EEC002ADBD9 /* CoreStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 529790F91D028EEC002ADBD9 /* CoreStatus.m */; };
+		529791031D028EEC002ADBD9 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 529790FF1D028EEC002ADBD9 /* Reachability.m */; };
+		529791081D028EF9002ADBD9 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 529791051D028EF9002ADBD9 /* ProgressHUD.bundle */; };
+		529791091D028EF9002ADBD9 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 529791071D028EF9002ADBD9 /* ProgressHUD.m */; };
+		529791101D02A0BD002ADBD9 /* FRNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297910F1D02A0BD002ADBD9 /* FRNetwork.swift */; };
+		529791121D02A415002ADBD9 /* FRColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529791111D02A415002ADBD9 /* FRColor.swift */; };
+		529791141D02C6CF002ADBD9 /* FRConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529791131D02C6CF002ADBD9 /* FRConst.swift */; };
+		52E138121D03E47F00AF59FE /* FROcFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E138111D03E47F00AF59FE /* FROcFunc.m */; };
+		E8AAE6F57E85113DC3BFA2EC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 582D7D6FE3AD1BAB65EB6339 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5297434B1D032251001A43F8 /* FRPersonList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRPersonList.swift; sourceTree = "<group>"; };
 		529790BC1D02885A002ADBD9 /* FaceRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		529790BF1D02885A002ADBD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		529790C11D02885A002ADBD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,29 @@
 		529790DB1D02885B002ADBD9 /* FaceRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		529790DF1D02885B002ADBD9 /* FaceRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceRecognitionUITests.swift; sourceTree = "<group>"; };
 		529790E11D02885B002ADBD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529790ED1D028866002ADBD9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		529790F11D028ED2002ADBD9 /* QYPhotos.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = QYPhotos.bundle; sourceTree = "<group>"; };
+		529790F21D028ED2002ADBD9 /* QYPhotos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QYPhotos.swift; sourceTree = "<group>"; };
+		529790F31D028ED2002ADBD9 /* QYPhotosCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QYPhotosCell.swift; sourceTree = "<group>"; };
+		529790F81D028EEC002ADBD9 /* CoreStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreStatus.h; sourceTree = "<group>"; };
+		529790F91D028EEC002ADBD9 /* CoreStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreStatus.m; sourceTree = "<group>"; };
+		529790FB1D028EEC002ADBD9 /* CoreNetworkStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreNetworkStatus.h; sourceTree = "<group>"; };
+		529790FC1D028EEC002ADBD9 /* CoreStatusProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreStatusProtocol.h; sourceTree = "<group>"; };
+		529790FE1D028EEC002ADBD9 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		529790FF1D028EEC002ADBD9 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		529791011D028EEC002ADBD9 /* CoreStatusSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreStatusSingleton.h; sourceTree = "<group>"; };
+		529791051D028EF9002ADBD9 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		529791061D028EF9002ADBD9 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		529791071D028EF9002ADBD9 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		5297910D1D028F6F002ADBD9 /* FaceRecognition-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaceRecognition-Bridging-Header.h"; sourceTree = "<group>"; };
+		5297910F1D02A0BD002ADBD9 /* FRNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRNetwork.swift; sourceTree = "<group>"; };
+		529791111D02A415002ADBD9 /* FRColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRColor.swift; sourceTree = "<group>"; };
+		529791131D02C6CF002ADBD9 /* FRConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRConst.swift; sourceTree = "<group>"; };
+		52E138101D03E47F00AF59FE /* FROcFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FROcFunc.h; sourceTree = "<group>"; };
+		52E138111D03E47F00AF59FE /* FROcFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FROcFunc.m; sourceTree = "<group>"; };
+		582D7D6FE3AD1BAB65EB6339 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE347A64C8D98EB86734D893 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E022016E5E882A4C46EBE0F2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8AAE6F57E85113DC3BFA2EC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +116,14 @@
 		529790B31D02885A002ADBD9 = {
 			isa = PBXGroup;
 			children = (
+				529790ED1D028866002ADBD9 /* Podfile */,
+				529790EF1D0288C2002ADBD9 /* extennsion */,
 				529790BE1D02885A002ADBD9 /* FaceRecognition */,
 				529790D31D02885B002ADBD9 /* FaceRecognitionTests */,
 				529790DE1D02885B002ADBD9 /* FaceRecognitionUITests */,
 				529790BD1D02885A002ADBD9 /* Products */,
+				F22480F1AA0CA947073B9558 /* Pods */,
+				744F2BB903A507CA3C48C63F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +142,12 @@
 			children = (
 				529790BF1D02885A002ADBD9 /* AppDelegate.swift */,
 				529790C11D02885A002ADBD9 /* ViewController.swift */,
+				5297910E1D02A09B002ADBD9 /* model */,
 				529790C31D02885A002ADBD9 /* Main.storyboard */,
 				529790C61D02885B002ADBD9 /* Assets.xcassets */,
 				529790C81D02885B002ADBD9 /* LaunchScreen.storyboard */,
 				529790CB1D02885B002ADBD9 /* Info.plist */,
+				5297910D1D028F6F002ADBD9 /* FaceRecognition-Bridging-Header.h */,
 			);
 			path = FaceRecognition;
 			sourceTree = "<group>";
@@ -125,6 +170,104 @@
 			path = FaceRecognitionUITests;
 			sourceTree = "<group>";
 		};
+		529790EF1D0288C2002ADBD9 /* extennsion */ = {
+			isa = PBXGroup;
+			children = (
+				529791041D028EF9002ADBD9 /* ProgressHUD */,
+				529790F71D028EEC002ADBD9 /* CoreStatus */,
+				529790F01D028ED2002ADBD9 /* QYPhotos */,
+			);
+			name = extennsion;
+			sourceTree = "<group>";
+		};
+		529790F01D028ED2002ADBD9 /* QYPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				529790F11D028ED2002ADBD9 /* QYPhotos.bundle */,
+				529790F21D028ED2002ADBD9 /* QYPhotos.swift */,
+				529790F31D028ED2002ADBD9 /* QYPhotosCell.swift */,
+			);
+			path = QYPhotos;
+			sourceTree = "<group>";
+		};
+		529790F71D028EEC002ADBD9 /* CoreStatus */ = {
+			isa = PBXGroup;
+			children = (
+				529790F81D028EEC002ADBD9 /* CoreStatus.h */,
+				529790F91D028EEC002ADBD9 /* CoreStatus.m */,
+				529790FA1D028EEC002ADBD9 /* Lib */,
+			);
+			path = CoreStatus;
+			sourceTree = "<group>";
+		};
+		529790FA1D028EEC002ADBD9 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				529790FB1D028EEC002ADBD9 /* CoreNetworkStatus.h */,
+				529790FC1D028EEC002ADBD9 /* CoreStatusProtocol.h */,
+				529790FD1D028EEC002ADBD9 /* Reachability */,
+				529791001D028EEC002ADBD9 /* Singleton */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		529790FD1D028EEC002ADBD9 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				529790FE1D028EEC002ADBD9 /* Reachability.h */,
+				529790FF1D028EEC002ADBD9 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		529791001D028EEC002ADBD9 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				529791011D028EEC002ADBD9 /* CoreStatusSingleton.h */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		529791041D028EF9002ADBD9 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				529791051D028EF9002ADBD9 /* ProgressHUD.bundle */,
+				529791061D028EF9002ADBD9 /* ProgressHUD.h */,
+				529791071D028EF9002ADBD9 /* ProgressHUD.m */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		5297910E1D02A09B002ADBD9 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				5297910F1D02A0BD002ADBD9 /* FRNetwork.swift */,
+				529791111D02A415002ADBD9 /* FRColor.swift */,
+				529791131D02C6CF002ADBD9 /* FRConst.swift */,
+				5297434B1D032251001A43F8 /* FRPersonList.swift */,
+				52E138101D03E47F00AF59FE /* FROcFunc.h */,
+				52E138111D03E47F00AF59FE /* FROcFunc.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		744F2BB903A507CA3C48C63F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				582D7D6FE3AD1BAB65EB6339 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F22480F1AA0CA947073B9558 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E022016E5E882A4C46EBE0F2 /* Pods.debug.xcconfig */,
+				BE347A64C8D98EB86734D893 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +275,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 529790E41D02885B002ADBD9 /* Build configuration list for PBXNativeTarget "FaceRecognition" */;
 			buildPhases = (
+				17EC2C64C0F3E9A4FF4B934A /* Check Pods Manifest.lock */,
 				529790B81D02885A002ADBD9 /* Sources */,
 				529790B91D02885A002ADBD9 /* Frameworks */,
 				529790BA1D02885A002ADBD9 /* Resources */,
+				3213D1197CC3A4DC37C41B21 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,7 +375,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				529790CA1D02885B002ADBD9 /* LaunchScreen.storyboard in Resources */,
+				529790F41D028ED2002ADBD9 /* QYPhotos.bundle in Resources */,
+				529791081D028EF9002ADBD9 /* ProgressHUD.bundle in Resources */,
 				529790C71D02885B002ADBD9 /* Assets.xcassets in Resources */,
+				529790EE1D028866002ADBD9 /* Podfile in Resources */,
 				529790C51D02885A002ADBD9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +399,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17EC2C64C0F3E9A4FF4B934A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3213D1197CC3A4DC37C41B21 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		529790B81D02885A002ADBD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				529790F61D028ED2002ADBD9 /* QYPhotosCell.swift in Sources */,
+				529791141D02C6CF002ADBD9 /* FRConst.swift in Sources */,
 				529790C21D02885A002ADBD9 /* ViewController.swift in Sources */,
+				5297434C1D032251001A43F8 /* FRPersonList.swift in Sources */,
+				529790F51D028ED2002ADBD9 /* QYPhotos.swift in Sources */,
+				529791091D028EF9002ADBD9 /* ProgressHUD.m in Sources */,
+				529791101D02A0BD002ADBD9 /* FRNetwork.swift in Sources */,
+				529791021D028EEC002ADBD9 /* CoreStatus.m in Sources */,
+				529791121D02A415002ADBD9 /* FRColor.swift in Sources */,
+				529791031D028EEC002ADBD9 /* Reachability.m in Sources */,
 				529790C01D02885A002ADBD9 /* AppDelegate.swift in Sources */,
+				52E138121D03E47F00AF59FE /* FROcFunc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,23 +588,29 @@
 		};
 		529790E51D02885B002ADBD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E022016E5E882A4C46EBE0F2 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FaceRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Qiuny.FaceRecognition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FaceRecognition/FaceRecognition-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		529790E61D02885B002ADBD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE347A64C8D98EB86734D893 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FaceRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Qiuny.FaceRecognition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FaceRecognition/FaceRecognition-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +679,7 @@
 				529790E61D02885B002ADBD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		529790E71D02885B002ADBD9 /* Build configuration list for PBXNativeTarget "FaceRecognitionTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +688,7 @@
 				529790E91D02885B002ADBD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		529790EA1D02885B002ADBD9 /* Build configuration list for PBXNativeTarget "FaceRecognitionUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +697,7 @@
 				529790EC1D02885B002ADBD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
